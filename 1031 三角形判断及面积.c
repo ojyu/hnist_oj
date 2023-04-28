@@ -26,11 +26,11 @@ int main()
 	if (a + b > c)
 	{
 		if (a * a + b * b - c * c > 0)
-			printf("锐角三角形\n%0.2f", area(a, b, c));
+			printf("閿愯涓夎褰n%0.2f", area(a, b, c));
 		else if (a * a + b * b - c * c < 0)
-			printf("钝角三角形\n%0.2f", area(a, b, c));
+			printf("閽濊涓夎褰n%0.2f", area(a, b, c));
 		else
-			printf("直角三角形\n%0.2f", area(a, b, c));
+			printf("鐩磋涓夎褰n%0.2f", area(a, b, c));
 	}
 	else
 		printf("ERROR\n");
