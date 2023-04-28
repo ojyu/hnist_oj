@@ -18,7 +18,6 @@ void sort(int* pa, int* pb, int* pc)
 	*pc = max;
 }
 
-
 int main()
 {
 	int a, b, c;
